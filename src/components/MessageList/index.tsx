@@ -21,6 +21,7 @@ export function MessageList() {
       setMessages(response.data)
     });
   }, []);
+  
   return (
     <div className={styles.messageListWrapper}>
       <img src={logoImg} alt="Do while 2021" />
